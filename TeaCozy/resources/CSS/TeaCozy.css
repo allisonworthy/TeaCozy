@@ -1,0 +1,121 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: black;
+    color:seashell;
+    opacity: 0.9;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+header{
+    height: 70px;
+    margin-top: 5px;
+    border-bottom: 1px solid seashell;
+}
+.headerContainer img{
+    height: 50px;
+  
+}
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    /* height: 70px; */
+    width: 100%;
+    
+}
+.headerContaineritem1{
+    /* flex-direction: row; */
+    /* text-decoration: underline; */
+    padding: 10px;
+    /* justify-content: space-between; */
+}
+
+.headerContainersubitem1{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: underline;
+    margin: 5px;  
+    padding: 10px;
+    
+}
+
+.headerContainersubitem1 li{
+    padding: 8px;
+}
+.container1{
+    background-image: url("C:/Users/allis/OneDrive/Documents/GERE/TeaCozy/resources/Images/MissionBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-top: 69px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.subContainer1{
+    background-color: black;
+    text-align: center;
+    margin-top: 20%;
+    
+    /* align-items: baseline;
+ */
+}
+.container2{ 
+    text-align: center;
+    display: inline-block;
+    
+    
+}
+.subContainer2{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 5px;
+    
+}
+.container2 img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+
+.container3{
+    background-image: url("C:/Users/allis/OneDrive/Documents/GERE/TeaCozy/resources/Images/LocationsBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    align-items: center;
+    display: inline-block;
+}
+
+.subContainer3{
+    display: flex;
+  
+    margin-top: 15px;
+}
+
+.subContainer3item1, .subContainer3item2, .subContainer3item3{
+    /* flex-grow: 1; */
+    justify-content: center;
+    margin: 0 20px;
+    background-color: black;
+    width: 300px;
+}
+
+footer{
+    height: 200px;
+}
+footer p{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 17px;
+}
